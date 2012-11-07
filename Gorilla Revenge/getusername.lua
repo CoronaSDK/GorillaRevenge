@@ -230,12 +230,6 @@ function new()
 						i = i+1
 					end
 					
-					if string.find(tempString, "ass") or string.find(tempString, "cunt") or string.find(tempString, "fuck") or 
-					   string.find(tempString, "shit") or string.find(tempString, "dick") or string.find(tempString, "fag") or 
-					   string.find(tempString, "slut") or string.find(tempString, "bitch") or string.find(tempString, "pussy") then
-						usernameValid = false
-					end
-					
 					local function networkListener( event )
 					    if ( event.isError ) then
 				            print( "Network error!")
