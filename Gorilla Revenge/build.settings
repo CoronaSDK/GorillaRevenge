@@ -1,0 +1,37 @@
+settings =
+{
+        
+		orientation =
+		{
+	        default = "landscapeRight",
+	        supported =
+	        {
+	            "landscapeLeft", "landscapeRight"
+	        }
+	    },
+ 
+        iphone =
+        {
+                plist =
+                {
+                        UIPrerenderedIcon = true,
+						UIStatusBarHidden = true,
+						UIApplicationExitsOnSuspend = false,
+						CFBundleIconFile = "Icon.png",
+						CFBundleIconFiles = {
+							"Icon.png", 
+							"Icon@2x.png",
+						},
+						CFBundleIdentifier = "com.chaluxeapps.gorillarevenge",
+						CFBundleVersion = "2",
+						
+						UIInterfaceOrientation = "UIInterfaceOrientationLandscapeRight",
+
+			            UISupportedInterfaceOrientations =
+			            {
+			                "UIInterfaceOrientationLandscapeLeft",
+			                "UIInterfaceOrientationLandscapeRight"
+			            },
+                },
+        }
+}
